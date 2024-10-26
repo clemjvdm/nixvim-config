@@ -6,18 +6,17 @@
         {
             type = "text";
             val = [
-              "    .+------+     +------+     +------+     +------+     +------+."
-              "  .' |    .'|    /|     /|     |      |     |\\     |\\    |`.    | `."
-              " +---+--+'  |   +-+----+ |     +------+     | +----+-+   |  `+--+---+"
-              " |   |  |   |   | |    | |     |      |     | |    | |   |   |  |   |"
-              " |  ,+--+---+   | +----+-+     +------+     +-+----+ |   +---+--+   |"
-              " |.'    | .'    |/     |/      |      |      \\|     \\|    `. |   `. |"
-              " +------+'      +------+       +------+       +------+      `+------+ "
+              "    +------+     +------+     +------+    "
+              "   /|     /|     |      |     |\\     |\\ "
+              "  +-+----+ |     +------+     | +----+-+  "
+              "  | |    | |     |      |     | |    | |  "
+              "  | +----+-+     +------+     +-+----+ |  "
+              "  |/     |/      |      |      \\|     \\|"
+              "  +------+       +------+       +------+  "
             ];
             opts = { hl = "Type"; position = "center"; };
         }
         { type = "padding"; val = 2; }
-        { type = "padding"; val = 1; }
         {
             type = "button";
             val = "find files";
@@ -25,11 +24,12 @@
             opts = {
               shortcut = "space space";
               position = "center";
-              width = 70;
+              width = 38;
               align_shortcut = "right";
               hl_shortcut = "Keyword";
             };
         }
+        { type = "padding"; val = 1; }
         {
             type = "button";
             val = "recent files";
@@ -37,11 +37,12 @@
             opts = {
               shortcut = "space re";
               position = "center";
-              width = 70;
+              width = 38;
               align_shortcut = "right";
               hl_shortcut = "Keyword";
             };
         }
+        { type = "padding"; val = 1; }
         {
             type = "button";
             val = "new file";
@@ -49,11 +50,12 @@
             opts = {
               shortcut = "n";
               position = "center";
-              width = 70;
+              width = 38;
               align_shortcut = "right";
               hl_shortcut = "Keyword";
             };
         }
+        { type = "padding"; val = 1; }
         {
             type = "button";
             val = "exit";
@@ -61,7 +63,7 @@
             opts = {
               shortcut = "X";
               position = "center";
-              width = 70;
+              width = 38;
               align_shortcut = "right";
               hl_shortcut = "Keyword";
             };
