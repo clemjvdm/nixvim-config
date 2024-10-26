@@ -2,7 +2,7 @@
   plugins.alpha = {
     enable = true;
     layout = [
-        { type = "padding"; val = 20; }
+        { type = "padding"; val = 2; }
         {
             type = "text";
             val = [
