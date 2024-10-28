@@ -15,6 +15,9 @@ Add the language to `treesitter.nix` and to `lsp.nix`.
 [ ] make toggleterm look better
 [ ] alpha.nvim line highlighting
 [ ] fix emojis breaking in nixd
+[ ] setup nixd pkgs
+[ ] add AI
+[ ] indent per filetype
 [x] alpha-nvim
 [x] nvim-cmp
 [x] lsp
