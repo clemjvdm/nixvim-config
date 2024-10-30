@@ -1,25 +1,30 @@
-## NixVim config
+## Running/Installing
 
-This is my personal nixvim config. To run make sure nix is installed and run `nix run .`.
+To try out the configuration, make sure you have Nix installed and the `nix-command` and `flakes` experimental features enabled. Then run:
+`nix run github:clemjvdm/nixvim-config`
 
-## Modifying the configuration
+## Modifying the Configuration
 
-Looking at https://nix-community.github.io/nixvim/search/ to look for options and plugins is very helpful.
+To modify the configuration clone the repository and start editing. Then run the edited configuration from the directory containing `flake.nix` with:
+`nix run .`
 
-## Adding support for a language
+Looking at configuration options can be done on the [NixVim options search](https://nix-community.github.io/nixvim/search/).
 
-Add the language to `treesitter.nix` and to `lsp.nix`.
+### Adding Support for a Language
+
+To add support for a language make sure to enable it in `lsp.nix`, `treesitter.nix` and optionally add it in `autocommands.nix` to set the proper indentation width automatically.
+
+To find if your language's language server exists in the NixVim LSP servers list, you can look it up [here](https://nix-community.github.io/nixvim/search/?query=plugins.lsp.servers). You can also find treesitter supported languages [here](https://github.com/nvim-treesitter/nvim-treesitter?tab=readme-ov-file#supported-languages).
 
 ## TODO
 
-[ ] make toggleterm look better
-[ ] alpha.nvim line highlighting
-[ ] fix emojis breaking in nixd
-[ ] setup nixd pkgs
-[ ] add AI
-[ ] indent per filetype
-[x] alpha-nvim
-[x] nvim-cmp
-[x] lsp
-[x] snippets
+- [ ] alpha.nvim remove selection caret
+- [ ] make toggleterm look better
+- [ ] fix emojis breaking when using nixd
+- [ ] nixd pkgs setup
+- [x] indent per filetype
+- [x] alpha-nvim
+- [x] nvim-cmp
+- [x] LSP support
+- [x] Add code snippet autocompletion
 
