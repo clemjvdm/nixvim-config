@@ -1,3 +1,6 @@
+
+<img src="./images/alpha-nvim.png" style="zoom:27%;" /><img src="./images/coding.png" style="zoom:27.1%;" />
+
 ## Running/Installing
 
 To try out the configuration, make sure you have Nix installed and the `nix-command` and `flakes` experimental features enabled. Then run:
