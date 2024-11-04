@@ -1,4 +1,6 @@
+{ inputs, ...}:
 {
+  nix.nixPath = [ "nixpkgs=${inputs.nixpkgs}"];
   plugins.lsp = {
     enable = true;
 
@@ -29,7 +31,7 @@
     # language servers to use
     servers = {
         clangd.enable = true;
-	    nixd.enable = true;
+	      nixd.enable = true;
         html.enable = true;
         lua_ls.enable = true;
         pyright.enable = true;
