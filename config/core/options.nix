@@ -6,8 +6,8 @@
       undofile = true;  	# Auto save and restore undo history
 
       # tab and indent
-      tabstop = 4;  		# Maximum width of tab character
-      shiftwidth = 4; 		# Size of an indent
+      tabstop = 2;  		# Maximum width of tab character
+      shiftwidth = 2; 		# Size of an indent
       expandtab = true;		# Tab key inserts spaces instead of tab character
       autoindent = true;	# Apply indentation of current line to next
       smartindent = true;	# Smart indentation behavior depending on style

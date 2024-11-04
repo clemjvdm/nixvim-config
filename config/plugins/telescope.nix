@@ -1,5 +1,5 @@
 # Fuzzy finder
-{ pkgs, ... }: {
+  { pkgs, ... }: {
   plugins.telescope = {
     enable = true;
 
