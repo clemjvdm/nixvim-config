@@ -1,6 +1,4 @@
-{ inputs, ...}:
 {
-  nix.nixPath = [ "nixpkgs=${inputs.nixpkgs}"];
   plugins.lsp = {
     enable = true;
 

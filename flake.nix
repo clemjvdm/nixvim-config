@@ -26,8 +26,7 @@
             inherit pkgs;
             module = import ./config; # import the module directly
             # You can use `extraSpecialArgs` to pass additional arguments to your module files
-            # extraSpecialArgs = {
-            # };
+            # extraSpecialArgs = { inherit inputs; };
           };
           nvim = nixvim'.makeNixvimWithModule nixvimModule;
         in

@@ -45,6 +45,19 @@
         { type = "padding"; val = 1; }
         {
             type = "button";
+            val = "browse files";
+            on_press.__raw = "Oil";
+            opts = {
+              shortcut = "-";
+              position = "center";
+              width = 38;
+              align_shortcut = "right";
+              hl_shortcut = "Keyword";
+            };
+        }
+        { type = "padding"; val = 1; }
+        {
+            type = "button";
             val = "new file";
             on_press.__raw = "function() vim.cmd[[ene]] end";
             opts = {

@@ -30,4 +30,6 @@ To find if your language's language server exists in the NixVim LSP servers list
 - [x] nvim-cmp
 - [x] LSP support
 - [x] Add code snippet autocompletion
+- [ ] mini.ai plugin
+- [x] alpha.nvim browse option
 
