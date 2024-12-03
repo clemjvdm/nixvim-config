@@ -36,6 +36,7 @@
         lua_ls.enable = true;
         pyright.enable = true;
         ts_ls.enable = true;
+        hls.enable = true;
         vuels = {
           enable = true;
           package = pkgs.nodePackages.vls;
