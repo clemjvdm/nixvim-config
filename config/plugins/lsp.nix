@@ -37,12 +37,15 @@
         pyright.enable = true;
         ts_ls.enable = true;
         hls.enable = true;
+        hls.installGhc = false;
         vuels = {
           enable = true;
           package = pkgs.nodePackages.vls;
         };
         rust_analyzer = {
             enable = true;
+            installRustc = false;
+            installCargo = false;
             settings.cargo.features = "all";
         };
       };
