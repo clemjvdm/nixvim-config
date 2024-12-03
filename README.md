@@ -32,4 +32,5 @@ To find if your language's language server exists in the NixVim LSP servers list
 - [x] Add code snippet autocompletion
 - [ ] mini.ai plugin
 - [x] alpha.nvim browse option
+- [ ] live update colorscheme
 

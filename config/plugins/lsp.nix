@@ -1,3 +1,5 @@
+{ pkgs, ... }:
+
 {
   plugins.lsp = {
     enable = true;
@@ -34,6 +36,10 @@
         lua_ls.enable = true;
         pyright.enable = true;
         ts_ls.enable = true;
+        vuels = {
+          enable = true;
+          package = pkgs.nodePackages.vls;
+        };
         rust_analyzer = {
             enable = true;
             settings.cargo.features = "all";
