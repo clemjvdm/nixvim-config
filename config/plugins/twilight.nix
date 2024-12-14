@@ -17,10 +17,10 @@
   };
   
 # automatically enable twlight
-  autoCmd = [
-    {
-      event = "VimEnter";
-      command = "TwilightEnable";
-    }
-  ];
+  # autoCmd = [
+  #   {
+  #     event = "VimEnter";
+  #     command = "TwilightEnable";
+  #   }
+  # ];
 }
