@@ -38,10 +38,7 @@
         ts_ls.enable = true;
         hls.enable = true;
         hls.installGhc = false;
-        vuels = {
-          enable = true;
-          package = pkgs.nodePackages.vls;
-        };
+        volar.enable = true;
         rust_analyzer = {
             enable = true;
             installRustc = false;
