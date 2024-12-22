@@ -44,6 +44,7 @@
             installRustc = false;
             installCargo = false;
             settings.cargo.features = "all";
+            settings.diagnostic.refreshSupport = false;
         };
       };
   };
